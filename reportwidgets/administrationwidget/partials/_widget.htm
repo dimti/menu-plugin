@@ -1,0 +1,14 @@
+<?php
+use Dimti\Mirsporta\Models\YmlFeed;
+?>
+<div class="report-widget">
+    <h3 style="margin-bottom:5px;"><?= e(trans($this->property('title'))) ?></h3>
+    <input
+            type="button"
+            class='btn btn-primary'
+            value="Clear menu cache"
+            data-request="<?= $this->getEventHandler('onClearCache') ?>"
+            data-request-success="$.oc.flashMsg({text: 'Cache cleaned', 'class': 'success', 'interval': 1}); return false;"
+    />
+    <div style="clear:both;"></div>
+</div>
