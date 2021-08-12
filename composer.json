@@ -1,0 +1,22 @@
+{
+    "name": "dimti/oc-menu-plugin",
+    "type": "october-plugin",
+    "description": "Menu injector",
+    "keywords": [
+        "october",
+        "cms",
+        "menu",
+        "benfreke",
+        "plugin"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander Demidov",
+            "email": "demidov@dimti.ru"
+        }
+    ],
+    "require": {
+        "composer/installers": "~1.0"
+    }
+}
