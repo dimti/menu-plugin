@@ -1,5 +1,5 @@
 {
-    "name": "dimti/oc-menu-plugin",
+    "name": "dimti/menu-plugin",
     "type": "october-plugin",
     "description": "Menu injector",
     "keywords": [
